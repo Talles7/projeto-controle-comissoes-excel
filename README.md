@@ -1,72 +1,85 @@
-# Projeto de Controle de Comissões e Pagamentos
+# Automação de Comissões e Controle de Pagamentos com Excel
 
-## Sobre o Projeto
+## Visão Geral
 
-Este projeto foi desenvolvido em Excel com o objetivo de automatizar o processo de cálculo e consolidação de pagamentos para vendedores e backoffice.
+Este projeto foi desenvolvido para automatizar o cálculo de comissões, faturamento e pagamentos de uma operação comercial.
 
-A solução permite centralizar informações de diferentes bases, realizar cruzamentos de dados e gerar uma visão consolidada dos valores a serem pagos.
-
----
-
-## Objetivo
-
-* Automatizar cálculos de pagamento;
-* Reduzir processos manuais;
-* Consolidar informações em uma única visão;
-* Facilitar a conferência dos valores;
-* Gerar indicadores para acompanhamento dos resultados.
+A solução centraliza informações de vendas, aplica regras de negócio e gera automaticamente os valores de comissão para vendedores e backoffice.
 
 ---
 
-## Etapas do Projeto
+## Problema
 
-### 1. Coleta de Dados
+O processo de cálculo dos pagamentos exigia cruzamento de informações entre diferentes bases, aumentando o tempo de processamento e a possibilidade de erros manuais.
 
-Recebimento das bases necessárias para cálculo dos pagamentos.
+Era necessário:
 
-### 2. Limpeza e Tratamento
-
-* Remoção de inconsistências;
-* Padronização de informações;
-* Validação dos registros.
-
-### 3. Consolidação
-
-* Cruzamento das tabelas;
-* Identificação dos responsáveis;
-* Cálculo automático dos valores.
-
-### 4. Visualização
-
-* Construção de dashboard;
-* Resumo dos pagamentos;
-* Indicadores de acompanhamento.
+* Consolidar informações de vendas;
+* Calcular comissões automaticamente;
+* Definir datas de faturamento;
+* Definir datas de pagamento;
+* Gerar informações consolidadas para acompanhamento.
 
 ---
 
-## Ferramentas Utilizadas
+## Estrutura da Solução
+
+### Base de Vendas
+
+Tabela principal contendo:
+
+* Clientes
+* Vendedores
+* Times
+* Categoria dos produtos
+* Número de série das vendas
+* Valores de venda
+* Comissões
+* Datas de faturamento
+* Datas de pagamento
+
+### Base de Faturamento
+
+Tabela auxiliar utilizada para cruzamento das informações de faturamento.
+
+### Dados
+
+Tabela de parâmetros contendo:
+
+* Equipes comerciais
+* Vendedores
+* Percentuais de comissão
+* Comissão do backoffice
+
+---
+
+## Principais Técnicas Utilizadas
+
+* Limpeza e padronização de dados
+* Cruzamento de informações entre tabelas
+* Automação de cálculos
+* Regras de negócio aplicadas com fórmulas
+* Consolidação de informações financeiras
+
+---
+
+## Ferramentas
 
 * Microsoft Excel
-* Tabelas Dinâmicas
 * PROCX
 * SOMASES
-* Fórmulas de tratamento de dados
-* Dashboard
-
----
-
-## Fluxo do Processo
-
-Base de Dados → Limpeza → Padronização → Consolidação → Dashboard
+* Tabelas Dinâmicas
+* Fórmulas condicionais
+* Dashboards
 
 ---
 
 ## Aprendizados
 
-Durante este projeto foram aplicados conceitos de:
+Durante o desenvolvimento deste projeto foram aplicados conceitos de:
 
-* Limpeza de dados;
-* Estruturação de bases;
-* Automação de processos;
-* Construção de dashboards;
-* Análise de dados para tomada de decisão.
+* Tratamento de dados
+* Estruturação de bases
+* Automação de processos
+* Análise de dados
+* Construção de indicadores para tomada de decisão
