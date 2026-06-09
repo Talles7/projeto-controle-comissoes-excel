@@ -7,7 +7,7 @@ Este projeto foi desenvolvido para automatizar o cálculo de comissões, faturam
 A solução centraliza informações de vendas, aplica regras de negócio e gera automaticamente os valores de comissão para vendedores e backoffice.
 
 ---
-<img width="1422" height="736" alt="dashboard" src="https://github.com/user-attachments/assets/09835ffe-bdac-4875-b77c-9d2da4547a98" />
+<img width="1992" height="1105" alt="image" src="https://github.com/user-attachments/assets/911e1d9c-04f0-493d-9d80-ff835829a7bd" />
 
 ---
 ## Problema
