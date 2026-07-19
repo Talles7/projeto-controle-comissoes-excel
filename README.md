@@ -68,8 +68,8 @@ Tabela de parâmetros contendo:
 ## Ferramentas
 
 * Microsoft Excel
-* PROCX
-* SOMASES
+* PROCV
+* SOMASE
 * Tabelas Dinâmicas
 * Fórmulas condicionais
 * Dashboards
